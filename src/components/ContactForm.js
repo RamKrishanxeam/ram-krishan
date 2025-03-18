@@ -11,32 +11,41 @@ export default function ContactForm({ id }) {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    // emailjs.sendForm('deepajha14', 'template_lyzbf0p', form.current, '-8AsG2hlNcWfgWJFj')
-    //   .then((result) => {
-    //       console.log(result.text);
-    //       toast.success('Message sent successfully.', {
-    //         position: "top-right",
-    //         autoClose: 3000,
-    //         hideProgressBar: false,
-    //         closeOnClick: true,
-    //         pauseOnHover: true,
-    //         draggable: true,
-    //         progress: undefined,
-    //         theme: "dark",
-    //         });
-    //   }, (error) => {
-    //       console.log(error.text);
-    //       toast.error("Failed to send message. Kindly refresh the page.", {
-    //         position: "top-right",
-    //         autoClose: 3000,
-    //         hideProgressBar: false,
-    //         closeOnClick: true,
-    //         pauseOnHover: true,
-    //         draggable: true,
-    //         progress: undefined,
-    //         theme: "dark",
-    //         });
-    //   });
+    emailjs
+      .sendForm(
+        "service_rkmkw38",
+        "template_vwbm3bt",
+        form.current,
+        "YxLrSaTPQFrQVv5Et"
+      )
+      .then(
+        (result) => {
+          console.log(result);
+          toast.success("Message sent successfully.", {
+            position: "top-right",
+            autoClose: 3000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "dark",
+          });
+        },
+        (error) => {
+          console.log(error.text);
+          toast.error("Failed to send message. Kindly refresh the page.", {
+            position: "top-right",
+            autoClose: 3000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "dark",
+          });
+        }
+      );
   };
 
   return (
@@ -49,7 +58,7 @@ export default function ContactForm({ id }) {
           alt="Deepa Jha"
           className="contact-wrapper-left"
         ></img>
-        <form ref={form} className="contact-wrapper-right">
+        <form ref={form} className="contact-wrapper-right" onSubmit={sendEmail}>
           <input
             id="name"
             type="text"

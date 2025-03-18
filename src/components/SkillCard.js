@@ -1,6 +1,5 @@
 import React from "react";
 import "./SkillCardStyle.css";
-import { CgCPlusPlus } from "react-icons/cg";
 import { DiGit } from "react-icons/di";
 import {
   SiVisualstudiocode,
@@ -8,7 +7,6 @@ import {
   SiReactrouter,
   SiBootstrap,
   SiFigma,
-  SiInkscape,
 } from "react-icons/si";
 import { TbBrandCss3, TbBrandJavascript, TbBrandHtml5 } from "react-icons/tb";
 import { IoLogoWindows, IoLogoNpm } from "react-icons/io";
@@ -47,7 +45,7 @@ export default function SkillCard({ id }) {
             <abbr title="Bootstrap">
               <SiBootstrap className="techLogo" />
             </abbr>
-            <abbr title="React Router">
+            <abbr title="React Router"> 
               <SiReactrouter className="techLogo" />
             </abbr>
           </div>

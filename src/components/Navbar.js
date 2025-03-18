@@ -97,7 +97,7 @@ export default function Navbar() {
             style={{ marginRight: "2rem" }}
           />
         </a>
-        <a href="" target="_blank" rel="noopener noreferrer">
+        <a href=" " target="_blank" rel="noopener noreferrer">
           <FaInstagram
             className="social"
             size={25}
