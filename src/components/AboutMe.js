@@ -47,12 +47,6 @@ export default function AboutMe({ id }) {
           share more about what projects you're working on right now!
         </p>
       </div>
-
-      <div className="profile-photo">
-        <div className="heading"> About Me</div>
-        <img className="img" src={myProfile} alt="Profile"></img>
-      </div>
-      <div className="name">Ram Krishan</div>
     </div>
   );
 }
