@@ -7,6 +7,7 @@ import cartoon from "../images/cartoon-compressed.png";
 
 export default function ContactForm({ id }) {
   const form = useRef();
+  
 
   const sendEmail = (e) => {
     e.preventDefault();

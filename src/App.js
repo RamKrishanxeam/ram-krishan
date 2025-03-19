@@ -53,7 +53,7 @@ function App() {
           projectTitle="JobSeeker: Discover 5000+ Job Opportunities"
           projectDesc="A platform designed to help job seekers find their next career opportunity. Whether you're passionate about startups or looking for roles in UI design, UX research, Android development, or administration, JobSeeker makes job discovery easier."
           projectLink="https://github.com/Deepajha14/Rog-Free"
-          deployedProjectLink="https://deepajha14.github.io/Rog-Free/"
+          deployedProjectLink="https://jobpunjab.vercel.app/"
           projectImg={require("./images/projectRogfree.png")}
         />
         <AboutMe id="about" />
