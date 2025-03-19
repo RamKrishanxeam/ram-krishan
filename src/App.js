@@ -35,7 +35,7 @@ function App() {
           className="odd"
           projectTitle="Transforming the Flooring Industry with Generative AI"
           projectDesc="RARA AI, powered by VISUALEZ, revolutionizes the flooring industry by providing advanced generative AI solutions for design, selection, and installation optimization. Improve efficiency and reduce costs while ensuring a personalized and seamless flooring experience."
-          projectLink="https://github.com/YourUsername/RaraAI"
+          projectLink=""
           deployedProjectLink="https://chatbot-gules-gamma.vercel.app"
           projectImg={require("./images/projectWiggles.jpg")}
         />
@@ -43,7 +43,7 @@ function App() {
         <ProjectCard
           projectTitle="AI-Driven Learning: Smarter Exam Preparation"
           projectDesc="Transform the way you prepare for competitive and academic exams with AI-driven insights, personalized feedback, and adaptive support tailored to your learning needs."
-          projectLink="https://github.com/YourUsername/AI-Driven-Learning"
+          projectLink=""
           deployedProjectLink="https://studybot.in/"
           projectImg={require("./images/projectGlassmorphism.png")}
         />
@@ -52,7 +52,7 @@ function App() {
           className="odd"
           projectTitle="JobSeeker: Discover 5000+ Job Opportunities"
           projectDesc="A platform designed to help job seekers find their next career opportunity. Whether you're passionate about startups or looking for roles in UI design, UX research, Android development, or administration, JobSeeker makes job discovery easier."
-          projectLink="https://github.com/Deepajha14/Rog-Free"
+          projectLink=""
           deployedProjectLink="https://jobpunjab.vercel.app/"
           projectImg={require("./images/projectRogfree.png")}
         />
