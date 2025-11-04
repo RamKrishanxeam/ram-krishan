@@ -83,27 +83,39 @@ export default function Navbar() {
         </li>
       </ul>
       <div className={click ? "social-links active" : "social-links"}>
-        <a href="" target="_blank" rel="noopener noreferrer">
+        <Link
+          to="https://www.linkedin.com/in/ram-krishan-b3b433217/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FaLinkedin
             className="social"
             size={25}
             style={{ marginRight: "2rem" }}
           />
-        </a>
-        <a href="" target="_blank" rel="noopener noreferrer">
+        </Link>
+        <Link
+          to="https://github.com/RamkrishanRk"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FaGithub
             className="social"
             size={25}
             style={{ marginRight: "2rem" }}
           />
-        </a>
-        <a href=" " target="_blank" rel="noopener noreferrer">
+        </Link>
+        <Link
+          to="https://www.instagram.com/ramkrishan_chalia/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FaInstagram
             className="social"
             size={25}
             style={{ marginRight: "2rem" }}
           />
-        </a>
+        </Link>
       </div>
       <div className="hamburger" onClick={handleCLick}>
         {click ? (

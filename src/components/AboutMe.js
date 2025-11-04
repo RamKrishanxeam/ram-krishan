@@ -4,48 +4,51 @@ import "./AboutMeStyle.css";
 export default function AboutMe({ id }) {
   return (
     <div className="about-container" id={id}>
-      <div class="aboutMe-text">
+      <div className="aboutMe-text">
         <h3>Hey there, 👋</h3>
         <p>
-          Dynamic <span>React Developer</span> with{" "}
-          <span>3+ years of experience</span> specializing in{" "}
-          <span>responsive, user-friendly interfaces</span>. Skilled in{" "}
-          <span>
-            {" "}
-            HTML, CSS, JavaScript, React.js, Next.js, and UI/UX design tools
-            like Figma
-          </span>
-          . Proficient in <span>state management using Redux</span> and{" "}
-          <span>integrating APIs</span>. Experienced in{" "}
-          <span>version control with Git and GitHub</span>. Completed{" "}
-          <span>advanced courses in web development and React.js</span>. Strong{" "}
-          background in developing <span>dynamic applications</span>,
-          <span>optimizing performance</span>, and ensuring{" "}
-          <span>cross-browser compatibility</span>. Adept at leveraging{" "}
-          <span>modern JavaScript frameworks</span> to build{" "}
-          <span>efficient, reusable components</span>. Passionate about writing{" "}
-          <span>clean, maintainable code</span> and implementing{" "}
-          <span>best practices in front-end development</span>.
+          I’m a dedicated full-time freelancer and{" "}
+          <span>Senior Full-Stack Developer</span> with{" "}
+          <span>5+ years of experience</span> building high-performance web and
+          mobile applications using <span>React.js</span> and{" "}
+          <span>React Native</span>. Passionate about transforming ideas into{" "}
+          <span>seamless digital experiences</span> — from{" "}
+          <span>responsive UIs</span> to{" "}
+          <span>scalable, production-ready applications</span> that deliver
+          exceptional user experiences and business value.
         </p>
 
         <p>
-          Currently working at <span>Xeam Ventures Pvt Ltd</span>, contributing{" "}
-          to <span>scalable web solutions</span> and collaborating in{" "}
-          <span>agile teams</span>. Actively involved in enhancing{" "}
-          <span>application performance</span> through{" "}
-          <span>code optimization and lazy loading techniques</span>.{" "}
-          Experienced in <span>debugging complex issues</span> and delivering{" "}
-          <span>seamless user experiences</span> across devices. Skilled in
-          translating <span>Figma designs</span> into{" "}
-          <span>pixel-perfect, interactive interfaces</span>. Regularly{" "}
-          participate in <span>code reviews</span> to ensure{" "}
-          <span>quality and consistency</span> in team projects. Proficient in{" "}
-          using <span>TypeScript</span> to enhance{" "}
-          <span>code reliability and maintainability</span>. Committed to{" "}
-          staying updated with the latest industry trends, including{" "}
-          <span>React hooks and functional components</span>. Demonstrated{" "}
-          ability to <span>mentor junior developers</span> and share knowledge
-          effectively within the team.
+          I specialize in <span>React.js</span>, <span>Next.js</span>,{" "}
+          <span>Node.js</span>, and <span>Express.js</span>, with strong skills
+          in <span>TypeScript</span>, <span>Redux Toolkit</span>,{" "}
+          <span>Zustand</span>, and <span>REST/GraphQL API integrations</span>.
+          Experienced in <span>UI/UX design</span> using{" "}
+          <span>Figma and Adobe XD</span>, I craft{" "}
+          <span>pixel-perfect, responsive, and user-friendly interfaces</span>{" "}
+          with frameworks like <span>Tailwind CSS</span>, <span>Bootstrap</span>
+          , and <span>Material UI</span>.
+        </p>
+
+        <p>
+          Skilled in <span>backend development</span> with{" "}
+          <span>Node.js, Express.js, MongoDB, and MySQL</span>, I also handle{" "}
+          <span>authentication</span> (JWT, OAuth, Firebase Auth) and{" "}
+          <span>cloud deployments</span> on platforms like{" "}
+          <span>AWS, Vercel, Render, and Firebase Hosting</span>. I ensure{" "}
+          <span>clean, maintainable, and scalable code</span> through{" "}
+          <span>best practices</span> and thorough{" "}
+          <span>testing using Jest and React Testing Library</span>.
+        </p>
+
+        <p>
+          Known for my <span>strong UI/UX sense</span>,{" "}
+          <span>proactive communication</span>, and{" "}
+          <span>problem-solving mindset</span>, I deliver projects with{" "}
+          <span>precision, performance, and reliability</span>. I provide{" "}
+          <span>free 45-day post-project support</span> and maintain{" "}
+          <span>transparency, dedication, and excellence</span> in every
+          collaboration.
         </p>
       </div>
     </div>

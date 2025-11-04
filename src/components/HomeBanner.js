@@ -9,7 +9,7 @@ export default function HomeBanner({ id }) {
         <div className="wrapper">
           <div className="name">Ram Krishan</div>
           <div className="staticTitle">
-            React JS
+            Senior Full-Stack
             <div className="hrLine"></div>
           </div>
           <ul className="dynamicTitle">
